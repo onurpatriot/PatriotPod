@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PatriotPod_Example', :exclusive => true do
+  pod 'PatriotPod', :path => '../'
+end
+
+target 'PatriotPod_Tests', :exclusive => true do
+  pod 'PatriotPod', :path => '../'
+
+  
+end
