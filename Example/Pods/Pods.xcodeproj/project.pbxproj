@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		068F88E4EE73854AF37251E697F082CC /* Pods-PatriotPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D7132C9C35DBD7FCD8AE0ED3F94685 /* Pods-PatriotPod_Tests-dummy.m */; };
+		499702283642916DB2306F0DC6B4B66F /* PatriotPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF910EFDB518AEB5A8B9FD986D28516F /* PatriotPod-dummy.m */; };
+		4E7D9FBEBB98E2B4F1BED49D53E524C0 /* PatriotPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 043EFE618130C168523984D92604DF20 /* PatriotPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53AF1ACF383DD5440CF6AFF6ED293E69 /* Pods-PatriotPod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C925A6FB44071B2CE6A745090FDD9FB /* Pods-PatriotPod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73881F92365EA62DB09CE082AE906569 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		86E52E01E3A4130C3B473875CD69BA82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		BEED8324E096B495224F5CD4FB1300F7 /* Pods-PatriotPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECF422C04158C622C03F8359E874A08A /* Pods-PatriotPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D11195EAEF4733DEF936F2F2CFFC51D1 /* Pods-PatriotPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B660E9A1DE95934AC486AB297B8D5722 /* Pods-PatriotPod_Example-dummy.m */; };
+		E7557BA71CC6172A003723C6 /* PPTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E7557BA51CC6172A003723C6 /* PPTableViewCell.h */; };
+		E7557BA81CC6172A003723C6 /* PPTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E7557BA61CC6172A003723C6 /* PPTableViewCell.m */; };
+		EF6655EAEF86212D7258D419256800DA /* PatriotPod.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5C82CC5CC532657DB35AD584A9FFE5D2 /* PatriotPod.bundle */; };
+		F91C30A759E7098C856833D63A11ED7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		008289B9CB5AA725225F0190DA00EB49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2B901853349154412AE872EEA56C62D;
+			remoteInfo = PatriotPod;
+		};
+		21D493B7B4770B6342F473402625E22B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2B901853349154412AE872EEA56C62D;
+			remoteInfo = PatriotPod;
+		};
+		E18F3DF9603435CE7C35FD21AC041EDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 115682D3933CC3665360432B23A0E891;
+			remoteInfo = "PatriotPod-PatriotPod";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		043EFE618130C168523984D92604DF20 /* PatriotPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PatriotPod-umbrella.h"; sourceTree = "<group>"; };
+		1855F5580C11F944280865EDF1E22AEB /* PatriotPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PatriotPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ADE0C6EF41AC89A3F3EBF31E5322CC8 /* Pods-PatriotPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PatriotPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1F1BC64624E62E0557EB2A31E58614FD /* Pods_PatriotPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PatriotPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		242F656787D7645B04832B1894FD3C05 /* Pods-PatriotPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PatriotPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3C925A6FB44071B2CE6A745090FDD9FB /* Pods-PatriotPod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PatriotPod_Example-umbrella.h"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4B6188A530B7A35821F696C14EF7BEE4 /* Pods-PatriotPod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PatriotPod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		51A96A3EEEEA090F2B003A54508C4422 /* Pods-PatriotPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PatriotPod_Example.modulemap"; sourceTree = "<group>"; };
+		56B306F2CFE8AAD517B96D174AB393DC /* Pods-PatriotPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PatriotPod_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5C82CC5CC532657DB35AD584A9FFE5D2 /* PatriotPod.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PatriotPod.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AC89FE5B9AC71091BC0094FC0DA4D5D /* Pods-PatriotPod_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PatriotPod_Example-resources.sh"; sourceTree = "<group>"; };
+		8335D172D42E9671987D01A8E5A750CB /* PatriotPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PatriotPod-prefix.pch"; sourceTree = "<group>"; };
+		839E383561AFBCA5E2C62A08CE41C0DC /* Pods-PatriotPod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PatriotPod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		865BC5D80FFD6C3398E915749C5BFFE3 /* Pods-PatriotPod_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PatriotPod_Tests-resources.sh"; sourceTree = "<group>"; };
+		92709735DFEC96A110DC58AACFF760E2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7069E34C732638FA0F1C73175DAF83D /* PatriotPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PatriotPod.modulemap; sourceTree = "<group>"; };
+		AA8A55E9F470C8E4D0CA1D1AEF5DE0CA /* Pods-PatriotPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PatriotPod_Tests.modulemap"; sourceTree = "<group>"; };
+		B16A657D5450D1A38753BD0504A1C9A8 /* Pods-PatriotPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PatriotPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B62813CCF6CE746CFD0D9BE433FE36FB /* Pods-PatriotPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PatriotPod_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B660E9A1DE95934AC486AB297B8D5722 /* Pods-PatriotPod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PatriotPod_Example-dummy.m"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C3D7132C9C35DBD7FCD8AE0ED3F94685 /* Pods-PatriotPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PatriotPod_Tests-dummy.m"; sourceTree = "<group>"; };
+		D81AA4CD1A2FB9030224E3E55AAD167F /* Pods-PatriotPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PatriotPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D96196503A7F52A435B776BC991E0D1A /* Pods-PatriotPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PatriotPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DF910EFDB518AEB5A8B9FD986D28516F /* PatriotPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PatriotPod-dummy.m"; sourceTree = "<group>"; };
+		DFF7029B3EA8551082E5A1F5DEDEA58C /* Pods-PatriotPod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PatriotPod_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E7557BA51CC6172A003723C6 /* PPTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPTableViewCell.h; sourceTree = "<group>"; };
+		E7557BA61CC6172A003723C6 /* PPTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPTableViewCell.m; sourceTree = "<group>"; };
+		EAAED90D39F9589D0A02DA53C8A28DDC /* Pods_PatriotPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PatriotPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF422C04158C622C03F8359E874A08A /* Pods-PatriotPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PatriotPod_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F42DE9A587FC0E797955EC5E7CC30767 /* PatriotPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PatriotPod.xcconfig; sourceTree = "<group>"; };
+		F48B1F8D30BD8480E74DC80732683959 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE311C6EE30CDD66F5CADCFAAC122858 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A68E3D81FFEB8F4ABB4E0D8FDB24682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F6645398507369DE1B007912AE1D41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73881F92365EA62DB09CE082AE906569 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAED4752F9244F3F0F22BEF3FD62D6B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F91C30A759E7098C856833D63A11ED7D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE3C0DF499D999302D8E8AF43A5A46FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86E52E01E3A4130C3B473875CD69BA82 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32C735ECB722704C5B7B6A84FFF971B4 /* PatriotPod */ = {
+			isa = PBXGroup;
+			children = (
+				4CFA49356D0B3DB5C6CE5F749EA5BF01 /* PatriotPod */,
+				9D1E55688B22FD13AF992E91969F05F5 /* Support Files */,
+			);
+			name = PatriotPod;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		38E6FD689CA3B2BCC18C3AE95035B96D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E7557BA51CC6172A003723C6 /* PPTableViewCell.h */,
+				E7557BA61CC6172A003723C6 /* PPTableViewCell.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4ACA0F1DFAB8812F5E7090933B2D442A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C82CC5CC532657DB35AD584A9FFE5D2 /* PatriotPod.bundle */,
+				1855F5580C11F944280865EDF1E22AEB /* PatriotPod.framework */,
+				1F1BC64624E62E0557EB2A31E58614FD /* Pods_PatriotPod_Example.framework */,
+				EAAED90D39F9589D0A02DA53C8A28DDC /* Pods_PatriotPod_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CFA49356D0B3DB5C6CE5F749EA5BF01 /* PatriotPod */ = {
+			isa = PBXGroup;
+			children = (
+				38E6FD689CA3B2BCC18C3AE95035B96D /* Classes */,
+			);
+			path = PatriotPod;
+			sourceTree = "<group>";
+		};
+		65D4F9A013C193B1DD159A0B477485FF /* Pods-PatriotPod_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FE311C6EE30CDD66F5CADCFAAC122858 /* Info.plist */,
+				51A96A3EEEEA090F2B003A54508C4422 /* Pods-PatriotPod_Example.modulemap */,
+				839E383561AFBCA5E2C62A08CE41C0DC /* Pods-PatriotPod_Example-acknowledgements.markdown */,
+				4B6188A530B7A35821F696C14EF7BEE4 /* Pods-PatriotPod_Example-acknowledgements.plist */,
+				B660E9A1DE95934AC486AB297B8D5722 /* Pods-PatriotPod_Example-dummy.m */,
+				56B306F2CFE8AAD517B96D174AB393DC /* Pods-PatriotPod_Example-frameworks.sh */,
+				6AC89FE5B9AC71091BC0094FC0DA4D5D /* Pods-PatriotPod_Example-resources.sh */,
+				3C925A6FB44071B2CE6A745090FDD9FB /* Pods-PatriotPod_Example-umbrella.h */,
+				D96196503A7F52A435B776BC991E0D1A /* Pods-PatriotPod_Example.debug.xcconfig */,
+				B62813CCF6CE746CFD0D9BE433FE36FB /* Pods-PatriotPod_Example.release.xcconfig */,
+			);
+			name = "Pods-PatriotPod_Example";
+			path = "Target Support Files/Pods-PatriotPod_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				B4E093D2E7EC3355CFCD33DFBB6C4349 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4ACA0F1DFAB8812F5E7090933B2D442A /* Products */,
+				F1240650A59623433E0FD54D51E52DEC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8CE2BFDD34BD4BD59FEC7A13BD52A790 /* Pods-PatriotPod_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F48B1F8D30BD8480E74DC80732683959 /* Info.plist */,
+				AA8A55E9F470C8E4D0CA1D1AEF5DE0CA /* Pods-PatriotPod_Tests.modulemap */,
+				1ADE0C6EF41AC89A3F3EBF31E5322CC8 /* Pods-PatriotPod_Tests-acknowledgements.markdown */,
+				B16A657D5450D1A38753BD0504A1C9A8 /* Pods-PatriotPod_Tests-acknowledgements.plist */,
+				C3D7132C9C35DBD7FCD8AE0ED3F94685 /* Pods-PatriotPod_Tests-dummy.m */,
+				DFF7029B3EA8551082E5A1F5DEDEA58C /* Pods-PatriotPod_Tests-frameworks.sh */,
+				865BC5D80FFD6C3398E915749C5BFFE3 /* Pods-PatriotPod_Tests-resources.sh */,
+				ECF422C04158C622C03F8359E874A08A /* Pods-PatriotPod_Tests-umbrella.h */,
+				D81AA4CD1A2FB9030224E3E55AAD167F /* Pods-PatriotPod_Tests.debug.xcconfig */,
+				242F656787D7645B04832B1894FD3C05 /* Pods-PatriotPod_Tests.release.xcconfig */,
+			);
+			name = "Pods-PatriotPod_Tests";
+			path = "Target Support Files/Pods-PatriotPod_Tests";
+			sourceTree = "<group>";
+		};
+		9D1E55688B22FD13AF992E91969F05F5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				92709735DFEC96A110DC58AACFF760E2 /* Info.plist */,
+				A7069E34C732638FA0F1C73175DAF83D /* PatriotPod.modulemap */,
+				F42DE9A587FC0E797955EC5E7CC30767 /* PatriotPod.xcconfig */,
+				DF910EFDB518AEB5A8B9FD986D28516F /* PatriotPod-dummy.m */,
+				8335D172D42E9671987D01A8E5A750CB /* PatriotPod-prefix.pch */,
+				043EFE618130C168523984D92604DF20 /* PatriotPod-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PatriotPod";
+			sourceTree = "<group>";
+		};
+		B4E093D2E7EC3355CFCD33DFBB6C4349 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32C735ECB722704C5B7B6A84FFF971B4 /* PatriotPod */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F1240650A59623433E0FD54D51E52DEC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				65D4F9A013C193B1DD159A0B477485FF /* Pods-PatriotPod_Example */,
+				8CE2BFDD34BD4BD59FEC7A13BD52A790 /* Pods-PatriotPod_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3E3B09F2B7443351BAF9BC985C824F40 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEED8324E096B495224F5CD4FB1300F7 /* Pods-PatriotPod_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A1FFBD46DDC541706DC52BEA9C41136 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53AF1ACF383DD5440CF6AFF6ED293E69 /* Pods-PatriotPod_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB60B183D893C85973AF23F31425206 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7557BA71CC6172A003723C6 /* PPTableViewCell.h in Headers */,
+				4E7D9FBEBB98E2B4F1BED49D53E524C0 /* PatriotPod-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		115682D3933CC3665360432B23A0E891 /* PatriotPod-PatriotPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94FBF950B6EBA87DF3395666C63FEA1B /* Build configuration list for PBXNativeTarget "PatriotPod-PatriotPod" */;
+			buildPhases = (
+				C3237CE74A9D9E3751D4C863F7E247C6 /* Sources */,
+				0A68E3D81FFEB8F4ABB4E0D8FDB24682 /* Frameworks */,
+				024995668690753E11F5BACAC715AE09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PatriotPod-PatriotPod";
+			productName = "PatriotPod-PatriotPod";
+			productReference = 5C82CC5CC532657DB35AD584A9FFE5D2 /* PatriotPod.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		3D4DBAA81F1B52FBA94399EFB41BC563 /* Pods-PatriotPod_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15F40A92971D7A30596FEB98A7AA38C8 /* Build configuration list for PBXNativeTarget "Pods-PatriotPod_Example" */;
+			buildPhases = (
+				BFFE2E85D0229BE3B53006F1E5C34B20 /* Sources */,
+				DAED4752F9244F3F0F22BEF3FD62D6B0 /* Frameworks */,
+				8A1FFBD46DDC541706DC52BEA9C41136 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3940AA706F1F051C018FC80F6FECC7BC /* PBXTargetDependency */,
+			);
+			name = "Pods-PatriotPod_Example";
+			productName = "Pods-PatriotPod_Example";
+			productReference = 1F1BC64624E62E0557EB2A31E58614FD /* Pods_PatriotPod_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A2B901853349154412AE872EEA56C62D /* PatriotPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B68E021136C1711070D5A89E96DC69D2 /* Build configuration list for PBXNativeTarget "PatriotPod" */;
+			buildPhases = (
+				FA6603D10788B6FB0F06B8A8C4156F62 /* Sources */,
+				DE3C0DF499D999302D8E8AF43A5A46FD /* Frameworks */,
+				A3EAB869E921E51272A7E84FCA9E7737 /* Resources */,
+				8AB60B183D893C85973AF23F31425206 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFD1BC602047D75C697B599F6DF7435E /* PBXTargetDependency */,
+			);
+			name = PatriotPod;
+			productName = PatriotPod;
+			productReference = 1855F5580C11F944280865EDF1E22AEB /* PatriotPod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD377C21FA5EB45748982A9105207545 /* Pods-PatriotPod_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43C733BF29045F4F70326D8A8D1227C0 /* Build configuration list for PBXNativeTarget "Pods-PatriotPod_Tests" */;
+			buildPhases = (
+				BAF6CF1D1CF55891228A66210D05F7DA /* Sources */,
+				45F6645398507369DE1B007912AE1D41 /* Frameworks */,
+				3E3B09F2B7443351BAF9BC985C824F40 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD7BF7476DF5EE9763C5237AD207BBD6 /* PBXTargetDependency */,
+			);
+			name = "Pods-PatriotPod_Tests";
+			productName = "Pods-PatriotPod_Tests";
+			productReference = EAAED90D39F9589D0A02DA53C8A28DDC /* Pods_PatriotPod_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4ACA0F1DFAB8812F5E7090933B2D442A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2B901853349154412AE872EEA56C62D /* PatriotPod */,
+				115682D3933CC3665360432B23A0E891 /* PatriotPod-PatriotPod */,
+				3D4DBAA81F1B52FBA94399EFB41BC563 /* Pods-PatriotPod_Example */,
+				BD377C21FA5EB45748982A9105207545 /* Pods-PatriotPod_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		024995668690753E11F5BACAC715AE09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3EAB869E921E51272A7E84FCA9E7737 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6655EAEF86212D7258D419256800DA /* PatriotPod.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAF6CF1D1CF55891228A66210D05F7DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				068F88E4EE73854AF37251E697F082CC /* Pods-PatriotPod_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFFE2E85D0229BE3B53006F1E5C34B20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D11195EAEF4733DEF936F2F2CFFC51D1 /* Pods-PatriotPod_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3237CE74A9D9E3751D4C863F7E247C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6603D10788B6FB0F06B8A8C4156F62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7557BA81CC6172A003723C6 /* PPTableViewCell.m in Sources */,
+				499702283642916DB2306F0DC6B4B66F /* PatriotPod-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3940AA706F1F051C018FC80F6FECC7BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PatriotPod;
+			target = A2B901853349154412AE872EEA56C62D /* PatriotPod */;
+			targetProxy = 008289B9CB5AA725225F0190DA00EB49 /* PBXContainerItemProxy */;
+		};
+		AFD1BC602047D75C697B599F6DF7435E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PatriotPod-PatriotPod";
+			target = 115682D3933CC3665360432B23A0E891 /* PatriotPod-PatriotPod */;
+			targetProxy = E18F3DF9603435CE7C35FD21AC041EDB /* PBXContainerItemProxy */;
+		};
+		DD7BF7476DF5EE9763C5237AD207BBD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PatriotPod;
+			target = A2B901853349154412AE872EEA56C62D /* PatriotPod */;
+			targetProxy = 21D493B7B4770B6342F473402625E22B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12E59F9AA8A38B449CC0FE3ACA14AD8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D81AA4CD1A2FB9030224E3E55AAD167F /* Pods-PatriotPod_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PatriotPod_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PatriotPod_Tests/Pods-PatriotPod_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PatriotPod_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1C2E0A7B279440F4FBCFD0E9094765B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F42DE9A587FC0E797955EC5E7CC30767 /* PatriotPod.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PatriotPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6F306AC33979E77473465637E7245CA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B62813CCF6CE746CFD0D9BE433FE36FB /* Pods-PatriotPod_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PatriotPod_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PatriotPod_Example/Pods-PatriotPod_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PatriotPod_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F5E08203AF518D7CD3FDE6013A7E2FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F42DE9A587FC0E797955EC5E7CC30767 /* PatriotPod.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PatriotPod/PatriotPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PatriotPod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PatriotPod/PatriotPod.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PatriotPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A19C2018036EE7DA913B78953296D60B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D96196503A7F52A435B776BC991E0D1A /* Pods-PatriotPod_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PatriotPod_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PatriotPod_Example/Pods-PatriotPod_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PatriotPod_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AACF0F522E3A6B97BBCD42097EE7CD0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 242F656787D7645B04832B1894FD3C05 /* Pods-PatriotPod_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PatriotPod_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PatriotPod_Tests/Pods-PatriotPod_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PatriotPod_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EB42F876BA0DCDBE957B8C3FE33FF545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F42DE9A587FC0E797955EC5E7CC30767 /* PatriotPod.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PatriotPod/PatriotPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PatriotPod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PatriotPod/PatriotPod.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PatriotPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF3A556B747A9017FBAB01C5B80D661C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F42DE9A587FC0E797955EC5E7CC30767 /* PatriotPod.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PatriotPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15F40A92971D7A30596FEB98A7AA38C8 /* Build configuration list for PBXNativeTarget "Pods-PatriotPod_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A19C2018036EE7DA913B78953296D60B /* Debug */,
+				6F306AC33979E77473465637E7245CA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43C733BF29045F4F70326D8A8D1227C0 /* Build configuration list for PBXNativeTarget "Pods-PatriotPod_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12E59F9AA8A38B449CC0FE3ACA14AD8D /* Debug */,
+				AACF0F522E3A6B97BBCD42097EE7CD0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94FBF950B6EBA87DF3395666C63FEA1B /* Build configuration list for PBXNativeTarget "PatriotPod-PatriotPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3A556B747A9017FBAB01C5B80D661C /* Debug */,
+				1C2E0A7B279440F4FBCFD0E9094765B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B68E021136C1711070D5A89E96DC69D2 /* Build configuration list for PBXNativeTarget "PatriotPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F5E08203AF518D7CD3FDE6013A7E2FA /* Debug */,
+				EB42F876BA0DCDBE957B8C3FE33FF545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

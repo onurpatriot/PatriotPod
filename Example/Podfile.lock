@@ -1,0 +1,14 @@
+PODS:
+  - PatriotPod (0.1.0)
+
+DEPENDENCIES:
+  - PatriotPod (from `../`)
+
+EXTERNAL SOURCES:
+  PatriotPod:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PatriotPod: c1266235c6586fec0e23664983d1a14cd5ba47d5
+
+COCOAPODS: 0.39.0

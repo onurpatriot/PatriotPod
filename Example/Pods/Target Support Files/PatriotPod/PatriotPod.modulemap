@@ -1,0 +1,6 @@
+framework module PatriotPod {
+  umbrella header "PatriotPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "PatriotPod",
+  "version": "0.1.0",
+  "summary": "A short description of PatriotPod.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/PatriotPod",
+  "license": "MIT",
+  "authors": {
+    "Onur Avsar": "onur@patriothings.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/PatriotPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PatriotPod/Classes/**/*",
+  "resource_bundles": {
+    "PatriotPod": [
+      "PatriotPod/Assets/*.png"
+    ]
+  }
+}
